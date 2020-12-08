@@ -1855,7 +1855,7 @@
   background-size: 25px;
   transition: opacity 0.2s;
   cursor: pointer;
-  background: url("./images/svg/icon-close.svg") no-repeat center;
+  background: url("../images/svg/icon-close.svg") no-repeat center;
 }
 .close-popup.menu-open {
   pointer-events: all;
@@ -1954,7 +1954,7 @@ body {
   height: 16px;
   left: 0;
   top: calc(50% - 9px);
-  background: url("./images/svg/icon-user.svg") no-repeat center center;
+  background: url("../images/svg/icon-user.svg") no-repeat center center;
   background-size: contain;
 }
 .button.phone-button span {
@@ -1969,7 +1969,7 @@ body {
   height: 17px;
   left: 0;
   top: calc(50% - 8.5px);
-  background: url("./images/svg/icon-phone.svg") no-repeat center center;
+  background: url("../images/svg/icon-phone.svg") no-repeat center center;
   background-size: contain;
 }
 .button.search-button span {
@@ -1992,7 +1992,7 @@ body {
   top: calc(50% - 6.5px);
   width: 13px;
   height: 13px;
-  background: url("./images/svg/icon-close.svg") no-repeat center center;
+  background: url("../images/svg/icon-close.svg") no-repeat center center;
   background-size: contain;
 }
 .button.confirm {
@@ -2022,7 +2022,7 @@ body {
   height: 24px;
   left: 0;
   top: calc(50% - 12px);
-  background: url("./images/svg/icon-basket-white.svg") no-repeat center center;
+  background: url("../images/svg/icon-basket-white.svg") no-repeat center center;
   background-size: contain;
 }
 .button.buy-button::before {
@@ -2074,19 +2074,19 @@ body {
   background-color: #3b5998;
 }
 .button.social.facebook span::before {
-  background-image: url("./images/svg/icon-facebook.svg");
+  background-image: url("../images/svg/icon-facebook.svg");
 }
 .button.social.twitter {
   background-color: #41abe1;
 }
 .button.social.twitter span::before {
-  background-image: url("./images/svg/icon-twitter.svg");
+  background-image: url("../images/svg/icon-twitter.svg");
 }
 .button.social.google {
   background-color: #ea4335;
 }
 .button.social.google span::before {
-  background-image: url("./images/svg/icon-google.svg");
+  background-image: url("../images/svg/icon-google.svg");
 }
 
 .flex-wrapper {
@@ -2147,7 +2147,7 @@ img {
     display: block;
     width: 30px;
     height: 30px;
-    background: url("./images/svg/menu.svg") no-repeat center center;
+    background: url("../images/svg/menu.svg") no-repeat center center;
     background-size: contain;
   }
 }
@@ -2251,7 +2251,7 @@ img {
   width: 20px;
   height: 20px;
   top: calc(50% - 10px);
-  background: url("./images/svg/arrow-right.svg") no-repeat center center;
+  background: url("../images/svg/arrow-right.svg") no-repeat center center;
   background-size: 8px 14px;
 }
 .header .level-1-title .back {
@@ -2264,7 +2264,7 @@ img {
   width: 20px;
   height: 20px;
   top: calc(50% - 10px);
-  background: url("./images/svg/arrow-right.svg") no-repeat center center;
+  background: url("../images/svg/arrow-right.svg") no-repeat center center;
   background-size: 8px 14px;
   transform: scaleX(-1);
 }
@@ -2599,7 +2599,7 @@ img {
   bottom: calc(100% + 15px);
   left: calc(100% + 15px);
   right: unset;
-  background: url("./images/svg/icon-close.svg") no-repeat center center;
+  background: url("../images/svg/icon-close.svg") no-repeat center center;
   background-size: contain;
 }
 #login-form .fancybox-close-small.fancybox-button {
@@ -2807,7 +2807,7 @@ img {
   bottom: calc(100% + 15px);
   left: calc(100% + 15px);
   right: unset;
-  background: url("./images/svg/icon-close.svg") no-repeat center center;
+  background: url("../images/svg/icon-close.svg") no-repeat center center;
   background-size: contain;
 }
 #recall-form .fancybox-close-small.fancybox-button {
@@ -2945,7 +2945,7 @@ img {
   width: 8px;
   right: 34px;
   top: calc(50% - 7px);
-  background: url("./images/svg/arrow-right.svg") no-repeat center center;
+  background: url("../images/svg/arrow-right.svg") no-repeat center center;
   background-size: contain;
 }
 .search-wrap .menu .menu-list li + li a {
@@ -4223,7 +4223,7 @@ img {
   top: calc(50% - 1.5px);
   width: 15px;
   height: 3px;
-  background: url("./images/svg/link-arrow.svg") no-repeat center center;
+  background: url("../images/svg/link-arrow.svg") no-repeat center center;
   background-size: contain;
 }
 .catalog .catalog-wrap {
@@ -4554,13 +4554,13 @@ img {
   }
 }
 .catalog .catalog-wrap .catalog-item .catalog-item__tags .tag-item.new {
-  background-image: url("./images/svg/green-tag.svg");
+  background-image: url("../images/svg/green-tag.svg");
 }
 .catalog .catalog-wrap .catalog-item .catalog-item__tags .tag-item.hit {
-  background-image: url("./images/svg/purple-tag.svg");
+  background-image: url("../images/svg/purple-tag.svg");
 }
 .catalog .catalog-wrap .catalog-item .catalog-item__tags .tag-item.sale {
-  background-image: url("./images/svg/red-tag.svg");
+  background-image: url("../images/svg/red-tag.svg");
 }
 .catalog .catalog-wrap .catalog-item .catalog-item__tags .tag-item + .tag-item {
   margin-left: 10px;
@@ -4691,7 +4691,7 @@ img {
   .catalog-item__favorites-wrapper
   a.item-compare
   span::before {
-  background-image: url("./images/svg/icon-comparison-orange.svg");
+  background-image: url("../images/svg/icon-comparison-orange.svg");
 }
 .catalog
   .catalog-wrap
@@ -4699,7 +4699,7 @@ img {
   .catalog-item__favorites-wrapper
   a.item-favorite
   span::before {
-  background-image: url("./images/svg/icon-favorites-orange.svg");
+  background-image: url("../images/svg/icon-favorites-orange.svg");
 }
 .catalog .catalog-wrap .catalog-item + .catalog-item::before {
   content: "";
